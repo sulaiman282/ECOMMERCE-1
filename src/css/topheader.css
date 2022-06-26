@@ -1,0 +1,23 @@
+#topheader1{
+    background-color: rgb(187, 183, 248);
+    text-align: center;
+}
+
+#topheader2 a{
+text-decoration: none;
+color:white ;
+
+text-transform: uppercase;
+font-size: 12px;
+text-align: center;
+}
+
+#topheader2 a:hover{
+color:red ;
+}
+
+@media only screen and (max-width: 900px)  {
+#topheader1{
+   display:none;
+} 
+}

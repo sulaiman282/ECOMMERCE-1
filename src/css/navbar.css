@@ -1,0 +1,60 @@
+#navbar1{
+    background-color: rgb(132, 140, 216);
+}
+
+#navbar2{
+
+}
+
+.logomain{
+    height: auto;
+    width: auto;
+    max-width: 250px;
+   
+}
+
+
+.searchbody{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.select-category{
+width: 100px;
+font-size: 14px;
+padding: 9px;
+padding-left: 10px;
+border: none;
+border-radius: 10px 0px 0px 10px ;
+border-right: 1px solid rgba(0, 0, 255, 0.096);
+}
+
+.select-category option{
+font-family: 'Work Sans', sans-serif;
+font-size: 14px;
+
+}
+
+
+
+#search-product{
+    width: 50%;
+    padding: 7px;
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#buttonid{
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    border-radius: 0px 10px 10px 0px ;
+    background-color: white;
+    padding: 7px;
+    padding-top: 8px;
+    border-left: 1px solid rgba(0, 0, 255, 0.096);
+}
