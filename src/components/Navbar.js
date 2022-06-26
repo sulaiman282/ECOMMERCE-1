@@ -2,6 +2,7 @@ import React from 'react'
 import navbar from '../css/navbar.css'
 import logo from '../img/logo.png'
 
+
 export default function Navbar() {
     return (
 
@@ -11,12 +12,17 @@ export default function Navbar() {
 
                 {/*logo*/}
                 <div className='navbar navbar-expand-lg navbar-light' id="navbar2">
-                    <img src={logo} alt="BESY BUY" class="logomain"></img>
-                    {/*logo*/}
+                    <img src={logo} alt="BEST BUY" class="logomain"></img>
+                    
+                    {/*logo end*/}
 
 
                     {/*category*/}
                     <div className='searchbody'>
+                        
+                     
+                        
+                        
                         <select class="select-category">
                             <option value="All" >All </option>
                             <option value="Accessories" >Accessories</option>
@@ -94,11 +100,25 @@ export default function Navbar() {
                         <button type='submit' id="buttonid" title='Search Now'>Search</button>
                         {/*search button end*/}
 
-
-
-
+                        
                     </div>
 
+                    {/*cart and login*/}
+                    <div className='d-flex cart-login'>
+                        <div class="text-center">
+                            <i class="fa-solid fa-cart-shopping"><span id="cart-counter">0</span></i>
+                            <a href="#" class="cart1">CART</a>
+                        </div>
+
+
+                        <div class="text-center ps-5">
+                            <i class="fa-solid fa-user "></i><a href="#" class="cart2">LOGIN/SIGNUP</a>
+                           
+                        </div>
+
+                   
+                    </div>
+                        {/*cart and login end*/}
                 </div>
 
 

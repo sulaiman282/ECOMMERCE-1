@@ -1,9 +1,13 @@
 #navbar1{
     background-color: rgb(132, 140, 216);
+    position:fixed;
+    top:1;
+    width:100%;
+    z-index:100;
 }
 
 #navbar2{
-
+width: 100%;
 }
 
 .logomain{
@@ -13,10 +17,30 @@
    
 }
 
+.logomain2{
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    display: none;
+   
+}
+
+@media only screen and (max-width: 994px)  {
+    .logomain{
+    display: none;
+   
+}
+
+.cart-login{
+ display: none !important;   
+}
+
+
+}
 
 .searchbody{
     justify-content: center;
-    width: 100%;
+    width:100%;
     text-align: center;
     
 }
@@ -41,8 +65,7 @@ font-size: 14px;
 
 #search-product{
     width: 50%;
-    padding: 7px;
-    padding-top: 8px;
+    padding: 8px 8px 7px 15px;
     justify-content: center;
     align-items: center;
     border: none;
@@ -52,9 +75,40 @@ font-size: 14px;
 #buttonid{
     font-family: 'Work Sans', sans-serif;
     border: none;
+    font-size: 14px;
     border-radius: 0px 10px 10px 0px ;
     background-color: white;
-    padding: 7px;
-    padding-top: 8px;
+    padding: 10px 8px 8px 10px;
     border-left: 1px solid rgba(0, 0, 255, 0.096);
+}
+
+.cart-login{
+    
+}
+#cart-counter{
+    background-color: red;
+    color:white;
+    font-size: 9px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+
+.cart-login a{
+   text-decoration: none; 
+   color: white;
+   font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+.cart-login i{
+    color: white;
+}
+
+
+.cart1:hover{
+    color: red;
+}
+.cart2:hover{
+    color: red;
 }
