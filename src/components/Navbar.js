@@ -106,13 +106,21 @@ export default function Navbar() {
                     {/*cart and login*/}
                     <div className='d-flex cart-login'>
                         <div class="text-center">
-                            <i class="fa-solid fa-cart-shopping"><span id="cart-counter">0</span></i>
-                            <a href="#" class="cart1">CART</a>
+                            <i class="fa-solid fa-heart"><span id="favourite-counter">0</span></i>
+                            <a href="#" class="cart">Favourite</a>
                         </div>
 
 
-                        <div class="text-center ps-5">
-                            <i class="fa-solid fa-user "></i><a href="#" class="cart2">LOGIN/SIGNUP</a>
+
+                        <div class="text-center ps-3">
+                            <i class="fa-solid fa-cart-shopping"><span id="cart-counter">0</span></i>
+                            <a href="#" class="cart">Wishlist</a>
+                        </div>
+
+
+
+                        <div class="text-center ps-3">
+                            <i class="fa-solid fa-user "></i><a href="#" class="cart">Login/Signup</a>
                            
                         </div>
 
