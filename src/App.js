@@ -4,8 +4,8 @@ import Topheader from './components/Topheader';
 import Navbar from './components/Navbar';
 import Profilebarmobile from "./components/Profilebarmobile";
 import Categorywithsliderimage from "./components/Categorywithsliderimage";
-
-
+import CountdownTimer from "./components/CountdownTimer";
+import Hotdeals from "./components/Hotdeals";
 
 
 function App() {
@@ -13,7 +13,8 @@ function App() {
     <div className="App">
       <Topheader />
       <Navbar />
-      <Categorywithsliderimage/>
+      <Categorywithsliderimage />
+      <Hotdeals/>
 
       <Profilebarmobile />
     </div>

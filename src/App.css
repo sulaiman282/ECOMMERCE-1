@@ -1,3 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
+.text-white{
+    color: white;
+}
+
+.text-red{
+    color: red;
+}

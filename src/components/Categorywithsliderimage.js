@@ -6,6 +6,7 @@ import Slider3 from "../img/slider3.jpg";
 
 import Promo1 from "../img/promo1.jpg";
 import Promo2 from "../img/promo2.jpg";
+import Promo3 from "../img/promo3.jpg";
 
 export default function Categorywithsliderimage() {
   return (
@@ -62,7 +63,7 @@ export default function Categorywithsliderimage() {
             </li>
           </ul>
         </div>
-        <div className="sliderimage ps-5">
+        <div className="sliderimage">
           <div
             id="carouselExampleDark"
             class="carousel carousel-dark p-4"
@@ -144,14 +145,10 @@ export default function Categorywithsliderimage() {
         </div>
 
         <div className="promoad1">
-          <img
-            src={Promo1}
-            className="pb-5 "
-            width="300px"
-            alt="Promo ad1"
-          ></img>
+          <img src={Promo1} alt="Promo ad1"></img>
 
-          <img src={Promo2} alt="Promo ad2" width="300px"></img>
+          <img src={Promo2} alt="Promo ad2"></img>
+          <img src={Promo3} alt="Promo ad3"></img>
         </div>
       </div>
     </div>

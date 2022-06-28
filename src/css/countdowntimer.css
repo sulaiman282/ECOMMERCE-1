@@ -1,0 +1,13 @@
+.countdown-timer{
+     font-family: 'Work Sans', sans-serif;
+     background-color: rgb(132,140,216);
+     width: fit-content;
+     font-size: 18px;
+     color: white;
+     border-radius: 5px;
+     padding: 1px;
+     font-weight: bold;
+}
+.countdown-timer span{
+     padding:2px;
+}

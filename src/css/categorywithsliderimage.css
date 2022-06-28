@@ -5,12 +5,15 @@
 
 .Categorywithsliderimage2 {
     background-color: rgba(212, 212, 212, 0.068);
+    
 }
 
 .Categorywithsliderimage3 {
     background-color: #fff;
     text-decoration: none;
     padding-right: 25px;
+    width: 340px;
+    
 }
 
 @media only screen and (max-width: 994px) {
@@ -72,6 +75,7 @@
     font-size: 14px;
     text-decoration: none;
     color: Black;
+    
 }
 
 .Categorywithsliderimage3 ul {
@@ -100,17 +104,26 @@
 }
 
 .promoad1 {
+    
     float: right;
-    text-align: right;
     width: 300px;
-    height: 330px;
     margin-left: auto;
     margin-right: 0;
+    
 }
+.promoad1 img{
+    float: right;
+    width: 30vh;
+   
+  
+}
+
+
 
 @media only screen and (max-width: 994px) {
     .promoad1 {
         display: none;
+       
     }
 
     .sliderimage {
