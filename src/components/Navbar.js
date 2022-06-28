@@ -88,7 +88,7 @@ export default function Navbar() {
 
 
                         {/*search start*/}
-                        <input type="text" id="search-product" placeholder="I'm shopping for..." name="fname"></input>
+                        <input type="text" id="search-product" placeholder="Search in BestBuy" name="fname"></input>
 
                         {/*search end*/}
 

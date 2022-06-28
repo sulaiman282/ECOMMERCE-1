@@ -1,0 +1,119 @@
+#Categorywithsliderimage1 {
+    width: auto;
+    background-color: rgb(242, 243, 247);
+}
+
+.Categorywithsliderimage2 {
+    background-color: rgba(212, 212, 212, 0.068);
+}
+
+.Categorywithsliderimage3 {
+    background-color: #fff;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+@media only screen and (max-width: 994px) {
+    .Categorywithsliderimage3 {
+        display: none;
+    }
+}
+
+.item-x h3 {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.chkbtn {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    background: #00f2ff36;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px transparent;
+    transition: 0.5s ease-in-out;
+    font-family: "Work Sans", sans-serif;
+}
+
+.chkbtn:hover {
+    background: #00f2ff;
+    box-shadow: 0 0 15px #00f2ff;
+}
+
+.bg-white1 {
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+            0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+            0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+    }
+}
+
+.carousel-caption {
+    display: block !important;
+}
+
+.Categorywithsliderimage3 a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: Black;
+}
+
+.Categorywithsliderimage3 ul {
+    padding-top: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+.Categorywithsliderimage3 li {
+    padding: 2px;
+}
+
+.Categorywithsliderimage3 a:hover {
+    color: red;
+}
+
+.Categorywithsliderimage3 a:hover~.arrow1 {
+    display: block;
+    color: red;
+}
+
+.ourcat {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 15px 0px 0px 5px;
+    font-weight: bold;
+}
+
+.promoad1 {
+    float: right;
+    text-align: right;
+    width: 300px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 994px) {
+    .promoad1 {
+        display: none;
+    }
+
+    .sliderimage {
+        padding: 0 !important;
+    }
+}

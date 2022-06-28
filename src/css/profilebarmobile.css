@@ -1,0 +1,46 @@
+#profilebarmobile {
+  background-color: rgb(132, 140, 216);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding:5px 0px 5px 0px;
+  display: none;
+
+}
+
+.profilebarmobile1 {
+  width: 100%;
+  display: flex;
+  
+}
+.child-p {
+  width: 100%;
+  text-align: center;
+  float: center;
+ 
+}
+.child-p a {
+  text-decoration: none;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+}
+
+.child-p a:hover{
+  color: red;
+}
+
+
+.child-p i{
+ color: rgb(245, 241, 241);
+}
+
+
+
+@media only screen and (max-width: 994px) {
+#profilebarmobile {
+
+display: inline-block;
+}
+}
