@@ -1,6 +1,6 @@
 import React from "react";
 import profilebarmobile from "../css/profilebarmobile.css";
-
+import { Link } from "react-router-dom";
 
 export default function Profilebarmobile() {
     return (
@@ -8,9 +8,9 @@ export default function Profilebarmobile() {
         <div className="container profilebarmobile1">
           <div class="child-p row">
             <i class="fa-solid fa-house"></i>
-            <a href="#" class="cart3">
+            <Link to="/home" class="cart3">
               Home
-            </a>
+            </Link>
           </div>
 
           <div class="child-p row">
@@ -29,9 +29,9 @@ export default function Profilebarmobile() {
 
           <div class="child-p row">
             <i class="fa-solid fa-user"></i>
-            <a href="#" class="cart3">
+            <Link to="/login" class="cart3">
               Account
-            </a>
+            </Link>
           </div>
         </div>
       </div>

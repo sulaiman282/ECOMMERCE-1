@@ -1,89 +1,75 @@
 import login from "../css/login.css";
-
 import React from 'react'
+import logo3 from '../img/logo3.png'
+import { Link } from "react-router-dom";
+
 
 export default function Login() {
 
-    document.querySelector('.img__btn').addEventListener('click', function() {
-  document.querySelector('.cont').classList.toggle('s--signup');
-});
+   
+
   return (
-    <div>
-      <p class="tip">Click on button in image container</p>
-      <div class="cont">
-        <div class="form sign-in">
-          <h2>Welcome back,</h2>
-          <label>
-            <span>Email</span>
-            <input type="email" />
-          </label>
-          <label>
-            <span>Password</span>
-            <input type="password" />
-          </label>
-          <p class="forgot-pass">Forgot password?</p>
-          <button type="button" class="submit">
-            Sign In
-          </button>
-          <button type="button" class="fb-btn">
-            Connect with <span>facebook</span>
-          </button>
-        </div>
-        <div class="sub-cont">
-          <div class="img">
-            <div class="img__text m--up">
-              <h2>New here?</h2>
-              <p>Sign up and discover great amount of new opportunities!</p>
-            </div>
-            <div class="img__text m--in">
-              <h2>One of us?</h2>
-              <p>
-                If you already has an account, just sign in. We've missed you!
-              </p>
-            </div>
-            <div class="img__btn">
-              <span class="m--up">Sign Up</span>
-              <span class="m--in">Sign In</span>
-            </div>
+    <div className="login-page">
+      <div class="container-fluid">
+        <div class="row main-content bg-success text-center">
+          <div class="col-md-4 text-center company__info">
+            <span class="company__logo">
+              <h2>
+                <img src={logo3} alt="BEST BUY" class="logomain"></img>
+              </h2>
+            </span>
+            <h4 class="company_title">
+              Combining quality and reliability in one
+            </h4>
           </div>
-          <div class="form sign-up">
-            <h2>Time to feel like home,</h2>
-            <label>
-              <span>Name</span>
-              <input type="text" />
-            </label>
-            <label>
-              <span>Email</span>
-              <input type="email" />
-            </label>
-            <label>
-              <span>Password</span>
-              <input type="password" />
-            </label>
-            <button type="button" class="submit">
-              Sign Up
-            </button>
-            <button type="button" class="fb-btn">
-              Join with <span>facebook</span>
-            </button>
+          <div class="col-md-8 col-xs-12 col-sm-12 login_form ">
+            <div class="container-fluid">
+              <div class="row mt-3">
+                <h2>Log In</h2>
+              </div>
+              <div class="row">
+                <form control="" class="form-group">
+                  <div class="row">
+                    <input
+                      type="text"
+                      name="username"
+                      id="username"
+                      class="form__input"
+                      placeholder="Email"
+                    ></input>
+                  </div>
+                  <div class="row">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      class="form__input"
+                      placeholder="Password"
+                    ></input>
+                  </div>
+                  <div class="remember-me">
+                    <input
+                      type="checkbox"
+                      name="remember_me"
+                      id="remember_me"
+                      class="me-3"
+                    ></input>
+                    <label for="remember_me">Remember Me!</label>
+                  </div>
+                  <div class=" form-group">
+                    <input type="submit" value="Submit" class="btn"></input>
+                  </div>
+                </form>
+              </div>
+              <div class="row">
+                <p>
+                  Don't have an account? <Link to="/signup">Register Here</Link>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <a
-        href="https://dribbble.com/shots/3306190-Login-Registration-form"
-        target="_blank"
-        class="icon-link"
-      >
-        <img src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Dribbble-icon.png"></img>
-      </a>
-      <a
-        href="https://twitter.com/NikolayTalanov"
-        target="_blank"
-        class="icon-link icon-link--twitter"
-      >
-        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png"></img>
-      </a>
     </div>
   );
 }

@@ -3,10 +3,10 @@ import categorywithsliderimage from "../css/categorywithsliderimage.css";
 import Slider1 from "../img/slider1.jpg";
 import Slider2 from "../img/slider2.jpg";
 import Slider3 from "../img/slider3.jpg";
-
 import Promo1 from "../img/promo1.jpg";
 import Promo2 from "../img/promo2.jpg";
 import Promo3 from "../img/promo3.jpg";
+import { Link } from "react-router-dom";
 
 export default function Categorywithsliderimage() {
   return (
@@ -16,24 +16,24 @@ export default function Categorywithsliderimage() {
           <p class="ourcat">Our Categories</p>
           <ul class="list-unstyled">
             <li>
-              <a href="" title="">
+              <Link to="/product" title="">
                 Fashion & Beauty
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="" title="">
+              <Link to="/product" title="">
                 TV & Home Appliances
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="" title="">
+              <Link to="/product" title="">
                 Groceries & Pets
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="" title="">
+              <Link to="/product" title="">
                 Bags, Jewellery
-              </a>
+              </Link>
             </li>
 
             <li>
@@ -52,21 +52,21 @@ export default function Categorywithsliderimage() {
               </a>
             </li>
             <li>
-              <a href="" title="">
+              <Link to="/product" title="">
                 Babies & Toys
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="" title="">
+              <Link to="/product" title="">
                 Automotive & Motorbike
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         <div className="sliderimage">
           <div
             id="carouselExampleDark"
-            class="carousel carousel-dark p-4"
+            class="carousel carousel-white p-4"
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
@@ -99,7 +99,11 @@ export default function Categorywithsliderimage() {
                     <span className="text-danger">20%</span> off on new Polo
                     T-shirts.
                   </h3>
-                  <button class="chkbtn p-2"> Checkout</button>
+                  <button class="chkbtn p-2">
+                    <Link to="/product" title="">
+                      Checkout
+                    </Link>{" "}
+                  </button>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1000">
@@ -145,10 +149,15 @@ export default function Categorywithsliderimage() {
         </div>
 
         <div className="promoad1">
-          <img src={Promo1} alt="Promo ad1"></img>
-
-          <img src={Promo2} alt="Promo ad2"></img>
-          <img src={Promo3} alt="Promo ad3"></img>
+          <Link to="/product" title="">
+            <img src={Promo1} alt="Promo ad1"></img>
+          </Link>
+          <Link to="/product" title="">
+            <img src={Promo2} alt="Promo ad2"></img>
+          </Link>
+          <Link to="/product" title="">
+            <img src={Promo3} alt="Promo ad3"></img>
+          </Link>
         </div>
       </div>
     </div>

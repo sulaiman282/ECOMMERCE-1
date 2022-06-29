@@ -9,8 +9,15 @@ import Product from "./components/Product";
 import Latestproduct from "./components/Latestproduct";
 import Latestproductlist from "./components/Latestproductlist";
 import Login from "./components/Login";
+import Signup from "./components/Signup";
+import Allproduct from "./components/Allproduct";
+
 import Footer from "./components/Footer";
+
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 
 function App() {
   return (
@@ -25,7 +32,9 @@ function App() {
           <Route exact path="/home" element={ <div><Categorywithsliderimage /><Hotdeals /><Product /><Latestproduct /><Latestproductlist /> </div>}> </Route>
           <Route path="/*" element={ <div><Categorywithsliderimage /><Hotdeals /><Product /><Latestproduct /><Latestproductlist /> </div>}> </Route>
           <Route exact path="/login" element={ <div><Login /> </div>}> </Route>
-       
+          <Route exact path="/signup" element={<div><Signup /> </div>}> </Route>
+          <Route exact path="/product" element={ <div><Allproduct /> </div>}> </Route>
+
         </Routes>
         <Footer />
         <Profilebarmobile />

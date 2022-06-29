@@ -1,5 +1,6 @@
 import React from 'react'
 import latestproduct from "../css/latestproduct.css";
+import { Link } from 'react-router-dom';
 
 export default function Latestproduct() {
   return (
@@ -10,14 +11,9 @@ export default function Latestproduct() {
         </h5>
       </div>
 
-     
-
       <div className="see-more ms-auto ">
-        <a href="#">SEE MORE</a>
-          </div>
-       
-
-          
+        <Link to="/product">SEE MORE</Link>
+      </div>
     </div>
   );
 }

@@ -42,5 +42,6 @@
 #profilebarmobile {
 
 display: inline-block;
+z-index: 1000;
 }
 }

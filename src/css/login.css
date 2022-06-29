@@ -1,64 +1,111 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:300');
- body {
-	 margin: 0;
-	 padding-bottom: 20px;
-	 font-family: 'Nunito', sans-serif;
-	 color: white;
-	 background: #151515;
+
+.login-page{
+height: 60vh;
 }
- .header {
-	 position: relative;
-	 text-align: center;
-   
+.main-content{
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	margin: 5em auto;
+	display: flex;
+	margin-top: 200px;
 }
-header h1{
-  color:#b61818;
+
+@media only screen and (max-width: 994px) {
+   .login-page{
+
 }
- form {
-	 margin: 0 auto;
-	 max-width: 16rem;
-	 overflow: auto;
+.main-content{
+    margin: 5em auto;
+    
 }
- form > * + * {
-	 margin-top: 1rem;
+
 }
- form > input {
-	 border: 0;
-	 border-bottom: 1px solid white;
-	 border-radius: 0;
-	 width: 100%;
-	 height: 2rem;
-	 padding: 0 0 0.25rem 0;
-	 font-size: .8rem;
-	 color: white;
-	 background: #151515;
+
+
+.company__info{
+	background-color: rgb(132,140,216);
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	 font-family: 'Work Sans', sans-serif;
 }
- form > input:focus {
-	 outline: none;
+.fa-android{
+	font-size:3em;
 }
- form > input::placeholder {
-	 color: white;
+@media screen and (max-width: 640px) {
+	.main-content{width: 90%;}
+	.company__info{
+		display: none;
+	}
+	.login_form{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
 }
- form > button {
-	 margin-top: 2rem;
-	 border: 0;
-	 border-radius: 200px;
-	 width: 100%;
-	 padding: 0.85rem;
-	 font-size: 1rem;
-	 color: white;
-	 background: #b61818;
+@media screen and (min-width: 642px) and (max-width:800px){
+	.main-content{width: 70%;}
 }
- form > button:focus {
-	 outline: none;
+.row > h2{
+	color:rgb(132,140,216);
+	 font-family: 'Work Sans', sans-serif;
+	 font-size: 25px;
 }
- form > p {
-	 text-align: center;
-	 color: white;
+.login_form{
+	background-color: #fff;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
 }
- .sign-up {
-	 display: none;
+form{
+	padding: 0 2em;
 }
- .opposite-btn1, .opposite-btn2 {
-	 cursor: pointer;
+.form__input{
+	width: 100%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:1.5em auto;
+	transition: all .5s ease;
+	 font-family: 'Work Sans', sans-serif;
+}
+.form__input:focus{
+	border-bottom-color: #5a58e6;
+	box-shadow: 0 0 5px rgba(83, 73, 218, 0.4); 
+	border-radius: 4px;
+}
+.btn{
+	transition: all .5s ease;
+	width: 70%;
+	border-radius: 30px;
+	color:rgb(132,140,216);
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid rgb(132,140,216);
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	 font-family: 'Work Sans', sans-serif;
+	
+}
+.btn:hover, .btn:focus{
+	background-color: rgb(132,140,216);
+	color:#fff;
+}
+.remember-me{
+    padding-top: 10px;
+ font-family: 'Work Sans', sans-serif;
+	text-align: left;
+}
+
+.company_title{
+	letter-spacing: 0;
+	font-weight: bold;
+	font-size: 20px;
 }

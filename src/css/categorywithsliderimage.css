@@ -43,6 +43,11 @@
     box-shadow: 0 0 15px transparent;
     transition: 0.5s ease-in-out;
     font-family: "Work Sans", sans-serif;
+ 
+}
+
+.chkbtn a{
+   text-decoration: none;
 }
 
 .chkbtn:hover {
@@ -117,7 +122,17 @@
    
   
 }
-
+.promoad1 img:hover{
+   transform: scale(1.1); 
+    transition: 0.5s ease-in-out;
+  
+}
+.carousel-item img:hover{
+   transform: scale(1.2); 
+   transition-duration: 0.5s;
+   
+  
+}
 
 
 @media only screen and (max-width: 994px) {

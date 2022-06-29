@@ -18,12 +18,12 @@
 
 }
 ::-webkit-scrollbar{
-  width:2px;
-  overflow: auto
+  width:3px;
+  overflow:visible;
 
 }
 ::-webkit-scrollbar:hover{
-  width:10px;
+  width:10px ;
  
 
 }

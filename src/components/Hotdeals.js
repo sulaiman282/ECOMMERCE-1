@@ -1,9 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import hotdeals from "../css/hotdeals.css";
 import CountdownTimer from "../components/CountdownTimer";
- 
+import  { Link } from "react-router-dom";
+import Product from "../components/Product"
 
 export default function Hotdeals() {
+
+const [active,setActive]=useState("Firstcard");
+
   return (
     <div className="container hotdeals d-flex">
       <div>
@@ -17,8 +21,12 @@ export default function Hotdeals() {
       </div>
 
       <div className="see-more ms-auto ">
-        <a href="#">SEE MORE</a>
+        <Link to="/product">SEE MORE</Link>
       </div>
+
+
+
+
     </div>
   );
 }
