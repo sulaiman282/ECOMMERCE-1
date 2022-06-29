@@ -20,7 +20,8 @@ border-bottom: 1px solid rgb(204,204,204);
 
 .see-more a{
      text-decoration: none;
-     font-family: 'Work Sans', sans-serif;   
+     font-family: 'Work Sans', sans-serif; 
+     font-size: 14px;  
 }
 
 .see-more a:hover{

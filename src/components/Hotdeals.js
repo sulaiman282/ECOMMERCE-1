@@ -7,9 +7,9 @@ export default function Hotdeals() {
   return (
     <div className="container hotdeals d-flex">
       <div>
-        <h4>
+        <h5>
           <span class="text-red fw-bold">H</span>ot Deals
-        </h4>
+        </h5>
       </div>
 
       <div className="timerforhotdeals">

@@ -6,7 +6,9 @@ import Profilebarmobile from "./components/Profilebarmobile";
 import Categorywithsliderimage from "./components/Categorywithsliderimage";
 import CountdownTimer from "./components/CountdownTimer";
 import Hotdeals from "./components/Hotdeals";
-
+import Product from "./components/Product";
+import Latestproduct from "./components/Latestproduct";
+import Latestproductlist from './components/Latestproductlist';
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
       <Navbar />
       <Categorywithsliderimage />
       <Hotdeals/>
+      <Product />
+      <Latestproduct />
+      <Latestproductlist/>
+
 
       <Profilebarmobile />
     </div>
