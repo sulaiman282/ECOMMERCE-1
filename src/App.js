@@ -9,6 +9,9 @@ import Hotdeals from "./components/Hotdeals";
 import Product from "./components/Product";
 import Latestproduct from "./components/Latestproduct";
 import Latestproductlist from './components/Latestproductlist';
+import Footer from "./components/Footer";
+
+
 
 function App() {
   return (
@@ -21,7 +24,7 @@ function App() {
       <Latestproduct />
       <Latestproductlist/>
 
-
+      <Footer/>
       <Profilebarmobile />
     </div>
   );

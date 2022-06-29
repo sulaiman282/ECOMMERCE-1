@@ -39,7 +39,7 @@ export default function Latestproductlist() {
               <a className="productlink" href="url">
                 {product.title}
               </a>
-              <h6>Price: {`${product.price+2000}`}৳</h6>
+              <h6>Price: {`${product.price + 2000}`}৳</h6>
             </div>
             <div className="testtext2">
               <span>
@@ -56,6 +56,8 @@ export default function Latestproductlist() {
           </div>
         ))}
       </div>
+
+      
     </div>
   );
 }
