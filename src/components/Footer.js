@@ -1,6 +1,6 @@
 import footer from "../css/footer.css";
 import React from "react";
-import footericon from "../img/footericon.png";
+
 
 export default function Footer() {
   return (
